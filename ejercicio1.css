@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #01e585;
+    font-family: sans-serif;
+}
+
+.principal {
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    margin: 50px auto 0 auto;
+    border-radius: 5px;
+}
+
+.principal__izquierda {
+    width: 40%;
+    height: 90%;
+    background: -webkit-linear-gradient(bottom, #bfec50, #e0fa9f, #bfec50);
+    position: relative;
+    top: 5%;
+    right: 10%;
+    border-radius: 10px;
+    box-shadow: #ddd 10px 5px 10px;
+}
+
+.izquierda_img {
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    padding: 10px 0 0 5px;
+}
+
+.manzanita_centro {
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border: #333 1px solid;
+}
+
+.principal__derecha {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    left: 40%;
+    bottom: 90%;
+    padding-top: 40px;
+}
+
+.principal__manzana {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
+.principal__compartir {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    top: 10px;
+    left: 0;
+    text-align: center;
+    padding: 5px;
+}
+
+.principal__like {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    top: 10px;
+    right: 0;
+    text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #666;
+}
+
+h4 {
+    color: #ddd;
+    font-size: 14px;
+}
+
+.derecha_uno {
+    margin: 15px 0 15px 0;
+}
+
+.derecha_red {
+    color: #ff4546;
+}
+
+.derecha_red span {
+    font-size: 70px;
+}
+
+.buttom {
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    background: #ff4546;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: #666 0px 0px 10px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.derecha_tres {
+    margin-top: 10px;
+}
+
+.derecha_cuatro {
+    margin: 30px 0 20px 0;
+}
+
+.manzanita_principal {
+    margin: 15px 0 15px 0;
+    overflow: hidden;
+}
+
+.manzanita {
+    width: 40px;
+    height: 40px;
+    box-shadow: #333 0px 0px 5px;
+    border: none;
+    text-decoration: none;
+}
+
+.manzanita:hover {
+    border: 1px #222 solid;
+}
